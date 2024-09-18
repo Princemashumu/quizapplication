@@ -89,5 +89,6 @@ node server.js
 
 ### Contact
 For any questions or feedback, please contact:
-Your Name - princemashumu@yahoo.com
-GitHub Profile - https://github.com/princemashumu
+- Email - princemashumu@yahoo.com
+
+- GitHub Profile - https://github.com/princemashumu
