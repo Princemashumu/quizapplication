@@ -1,0 +1,11 @@
+[
+    { "question": "Is JavaScript synchronous by default? (true/false)", "answer": "true", "explanation": "JavaScript is synchronous by default, meaning that code is executed line by line, and one line must complete before the next line starts." },
+    { "question": "Is Node.js single-threaded? (true/false)", "answer": "true", "explanation": "Node.js uses a single-threaded event loop to handle multiple connections concurrently, but the actual execution of code is single-threaded." },
+    { "question": "Can you use `await` inside a regular function? (true/false)", "answer": "false", "explanation": "`await` can only be used inside `async` functions. Regular functions do not support `await`." },
+    { "question": "Is `console.log` a synchronous operation in JavaScript? (true/false)", "answer": "true", "explanation": "`console.log` is a synchronous operation, meaning it blocks the execution of subsequent code until the message is logged to the console." },
+    { "question": "Can you use `setTimeout` to execute code asynchronously? (true/false)", "answer": "true", "explanation": "`setTimeout` schedules code to run after a specified delay, allowing other code to execute in the meantime. This makes it an asynchronous operation." },
+    { "question": "Does the `fetch` API return a Promise? (true/false)", "answer": "true", "explanation": "The `fetch` API returns a Promise that resolves to the Response object representing the response to the request." },
+    { "question": "Is `Promise.all` used to execute multiple promises concurrently? (true/false)", "answer": "true", "explanation": "`Promise.all` takes an array of Promises and returns a single Promise that resolves when all of the Promises in the array have resolved." },
+    { "question": "Can `console.error` be used to log errors to the console? (true/false)", "answer": "true", "explanation": "`console.error` is used to output error messages to the console, providing a way to distinguish errors from other types of logs." }
+  ]
+  
